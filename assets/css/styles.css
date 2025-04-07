@@ -1,0 +1,105 @@
+:root {
+  --navActive: rgb(200, 159, 65);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  header {
+    nav {
+      .active {
+        color: var(--navActive) !important;
+      }
+
+      .nav-link {
+        font-weight: bold !important;
+      }
+    }
+  }
+
+  main {
+    #section1 {
+      box-shadow: 8px 10px 23px 15px rgba(46, 46, 46, 0.28);
+      border-radius: 20px;
+
+      .imagePull {
+        background-image: url("../img/img-1.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 20rem;
+        width: 15rem;
+      }
+
+      #vert {
+        background-color: rgb(136, 238, 156);
+        margin: 1rem;
+        padding: 30px;
+        width: 50 px;
+        height: 50 px;
+        border-radius: 5px;
+        border: 1px solid rgb(136, 238, 156);
+      }
+      /* #vert:active {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(136, 238, 156);
+      } */
+      #rose {
+        background-color: rgba(255, 209, 217, 1);
+        margin: 1rem;
+        padding: 30px;
+        width: 50 px;
+        height: 50 px;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 209, 217, 1);
+      }
+      /* #rose:active {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgba(255, 209, 217, 1);
+      } */
+      #jaune {
+        background-color: rgb(233, 230, 3);
+        margin: 1rem;
+        padding: 30px;
+        width: 50 px;
+        height: 50 px;
+        border-radius: 5px;
+        border: 1px solid rgb(233, 230, 3);
+      }
+      /* #jaune:active {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(233, 230, 3);
+      } */
+      #gris {
+        background-color: rgb(219, 222, 237);
+        margin: 1rem;
+        padding: 30px;
+        width: 50 px;
+        height: 50 px;
+        border-radius: 5px;
+        border: 1px solid rgb(219, 222, 237);
+      }
+      /* #gris:active {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(219, 222, 237); */
+      /* } */
+      #bordeaux {
+        background-color: rgba(148, 36, 50, 1);
+        margin: 1rem;
+        padding: 30px;
+        width: 50 px;
+        height: 50 px;
+        border-radius: 5px;
+        border: 1px solid rgba(148, 36, 50, 1);
+      }
+      /* #bordeaux:active {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgba(148, 36, 50, 1);
+      } */
+    }
+  }
+}
